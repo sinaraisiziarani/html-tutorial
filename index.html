@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<!--شروع و پایان با <html></html>-->
+<html lang="en" dir="rtl"><!--زبان و dir-->
+<head><!--چیزهایی که نمیبینبم-->
+    <meta charset="UTF-8"><!--بهم نخوردن زبان ها-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--ریسپانسیو-->
+    <title>Document</title><!--موضوع اصلی سایت-->
+    <link rel="image-icon" href=""><!--   iframe   فواایکون اول درس نده بزار بده -->
+<style>
+    th,td{
+        border: 1px solid green;
+    }
+</style>
+</head>
+<body><!--جایی که کد ها نوشته میشود-->
+ 
+  
+  
+  
+  
+    <!--  در رابطه با لورم هم بهشون بگو                 H1 متن های اصلی وفقط یکبار استفاده میشود-->
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+
+
+
+
+
+
+
+
+
+
+<p></p><!--متن توضیحات-->
+<br><!--یک خط بشکنه فاصله بندازه-->
+<hr><!--یه خط بکشه-->
+
+
+
+
+
+
+
+
+
+<!--element ها--> <body> , <p> , <h1> 
+
+
+
+
+
+
+
+
+<!--لینک ها-->
+<a href="#سش" target="_top">click</a>
+
+<!--tatget    همچنین میتواند ویژگی های مختلفی داشته باشد .... ویژگی مشخص می کند که سند پیوند شده کجا باز شود.-->
+<!--     _self  Default. Opens the document in the same window/tab as it was clicked-->
+<!--  _blank سند را در یک پنجره یا تب جدید باز می کند   -->
+
+<a href="mailto:someone@example.com">Send email</a>
+<a href="tel:09965672667">telephon</a>
+
+
+
+
+
+
+
+
+
+
+<!--formating-->
+<b></b> <!--- Bold text-->
+<i></i><!-- - Italic text-->
+<mark></mark> <!--- Marked text-->
+<small></small> <!--- Smaller text-->
+<del></del><!--- Deleted text-->
+<sub></sub> <!--- Subscript text-->
+<sup></sup> <!-- Superscript text-->
+    
+
+
+
+
+
+
+<!--quotation elements-->
+<q>sdasdasd</q>برای نقل قول
+<address><!--برای گفتن اطلاعات نویشنده-->
+    amir <br>
+    15 <br>
+    tehran<br>
+    iran<br>
+</address>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p><!--عوض شدن فونت عنوان به italic-->
+
+
+
+
+
+
+
+
+
+
+<img width="" height="" src="" alt=""><!--picture-->
+<video src=""></video>
+<audio src=""></audio>
+<iframe src="" frameborder="0"></iframe><!--shadow مثل border پیشفرض یک-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----              فواایکون                    مهم                            -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div></div>
+<span></span>
+
+<nav></nav>
+<section></section>
+<header></header>
+<main></main>
+<article></article>
+<footer></footer>
+<aside></aside>
+<summary></summary>
+<details></details>
+<samp></samp><!--بشکل ارور کامپوتری-->
+<figure></figure><!--برچسب محتوای مانند تصاویر میزند-->
+
+
+
+
+
+<!--             کامنت                              مهم                         -->
+<!--  -->
+
+
+
+
+
+
+
+
+
+
+
+<ul>   <!--unordered list غیر قابل شمارش-->
+    <li></li>
+    <li></li>
+</ul>
+
+<ol>   <!--ordered list شمارش-->
+    <li></li>
+    <li></li>
+</ol>
+<dl> <!--another list-->
+<dd></dd>
+<dt></dt>
+</dl>
+
+
+
+
+<h1 id="test"></h1>
+<h1 class="test"></h1>
+
+
+
+
+
+
+
+
+
+
+
+<table >
+<thead>
+    <tr> <!--table row-->
+<th colspan="2">name</th><!--table head or header --><!--colspan کالسپن برای جا دادن 2 تا-->
+<th>family name</th><!--table head or header-->
+<th>age</th><!--table head or header-->
+</tr>
+</thead>
+
+
+<tbody>
+<tr>
+    <td>sina</td><!--table data-->
+    <td>raisi</td><!--table data-->
+    <td>14</td><!--table data-->
+</tr>
+
+<tr>
+    <td>farhad</td><!--table data-->
+    <td>raisi</td><!--table data-->
+    <td>52</td><!--table data-->
+</tr>
+</tbody>
+
+
+<tfoot>
+<tr>
+    <td>massomeh</td><!--table data-->
+    <td>fallah</td><!--table data-->
+    <td>50</td><!--table data-->
+</tr>
+</tfoot>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--فرم ها-->
+<form action="" method="post" autocomplete="on" target="_blank"><!-- فرسادن اطلاعات به سمت سرور action |  اگر از قبل چیزی وارد کردی میاره  autocomplete   |   target برای باز کردن در تب جدید  -->
+    <label for="name">نام:</label>
+    <input type="text" id="name" name="name" >
+<br>
+    <label for="password">رمز:</label>
+    <input type="password" id="password" name="password">
+
+
+    <br>
+    <label for="radio">متن 1</label>
+    <input type="radio" id="radio" name="text">
+
+    <br>
+    <label for="radio2">متن 2</label>
+    <input type="radio" id="radio2" name="text2">
+
+    <br>
+<button type="submit">save</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+<!--عناصر فرم-->
+<select name="selectbox" id="selectbox" size="5">
+    <option value="html">html</option>
+    <option value="css">css</option>
+    <option value="js">js</option>
+    <option value="nodejs">nodejs</option>
+    <option value selected="reactjs">reactjs</option>
+    <option value="vuejs">vuejs</option>
+    <option value="html">html</option>
+    <option value="css">css</option>
+    <option value="js">js</option>
+    <option value="nodejs">nodejs</option>
+    <option value selected="reactjs">reactjs</option>
+    <option value="vuejs">vuejs</option>
+</select><!--size برای اسکرول خردن ومحدودیت برای جا دادن selected برای انتخاب یکی بصورت دلخواه-->
+
+
+
+<textarea name="" id="" cols="200" rows="30"></textarea><!--متن بزرگ--><!--row= سطح یا عرض cols= طول-->
+<button>click me</button>
+
+
+
+<!--fildset برای بورد فرم ها-->
+<fieldset>
+    <fieldset>
+        <legend>مشخصات</legend>   
+    <label for="">نام</label>
+    <input type="text" id="" name="" >
+    <br>
+    <label for="">نام خانوادگی</label>
+    <input type="text" id="" name="" >
+    <br>
+    <label for="">سن</label>
+    <input type="number" id="" name="" >
+    <br>
+    </fieldset>
+    <br>
+<fieldset>
+    <legend>جنسیت</legend>
+<label for=""></label>
+<label for="">زن</label>
+<input type="radio" >
+<label for=""></label>
+<label for="">مرد</label>
+<input type="radio" >
+<br>
+</fieldset>
+<fieldset>
+    <legend>مهارت ها</legend>
+<label for="">html5</label>
+<input type="checkbox" value="html5">
+<label for="">css3</label>
+<input type="checkbox" value="css3">
+<label for="">js</label>
+<input type="checkbox" value="js">
+</fieldset>
+
+<button type="submit">save</button>
+</fieldset>
+
+
+
+<!--datalist-->
+
+<input type="text" list="my-data">
+<datalist id="my-data">
+<option value="html">html</option>
+<option value="css">css</option>
+<option value="js">js</option>
+<option value="nodejs">nodejs</option>
+<option value selected="reactjs">reactjs</option>
+<option value="vuejs">vuejs</option>
+<option value="nodejs">nodejs</option>
+<option value selected="reactjs">reactjs</option>
+<option value="vuejs">vuejs</option>
+<option value="nextjs">nextjs</option>
+<option value="laravel">laravel</option>
+<option value="php">php</option>
+</datalist>
+
+
+
+
+<!--read only نمیشه چیزی نوشت داخلش-->
+<input type="text" readonly value="اموزش">
+<!--disable   غیر فعال کردن دکمه-->
+<button disabled>disable button</button>
+<!--multiple انتخاب بیشتر از یک فایل-->
+<input type="file" multiple>
+<!--placeholder-->
+<input type="text" placeholder="it is a text">
+<!--reqired اجباری کردن یک ایپوت-->
+<input type="number" required>
+<!--auto focous وقتی صفحه باز شد سریع بره روی اون اینپوت-->
+<input type="text" autofocus>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--block element
+<address>
+    <article>
+    <aside>
+    <blockquote>
+    <canvas>
+    <dd>
+    <div>
+    <dl>
+    <dt>
+    <fieldset>
+    <footer>
+    <form>
+    <h1>-<h6>
+    <header>
+    <hr>
+    <li>
+    <main>
+    <nav>
+    <ol>
+    <p>
+    <section>
+    <table>
+    <tfoot>
+    <ul>
+    <video>
+        -->
+
+
+
+
+
+
+
+
+        
+
+<!-- inline element 
+<a>
+<abbr>
+<b>
+<bdo>
+<br>
+<button>
+<cite>
+<i>
+<img>
+<input>
+<label>
+<q>
+<script>
+<select>
+<small>
+<span>
+<sub>
+<sup>
+<textarea>
+<time>
+<tt>
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- هم یاد بده-  inspect -->
+
+
+    
+
+
+</body>
+</html>
